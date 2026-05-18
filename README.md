@@ -15,7 +15,8 @@ Python (requests, pandas, matplotlib), SQLite, Jupyter.
     git clone https://github.com/SofiaPodugorova/ua-science-diaspora.git
     cd ua-science-diaspora
     python -m venv .venv
-    .venv\Scripts\Activate.ps1
+    source .venv/bin/activate          # macOS / Linux
+    .venv\Scripts\Activate.ps1         # Windows (PowerShell)
     pip install -r requirements.txt
     python src/fetch.py
     python src/parse.py
